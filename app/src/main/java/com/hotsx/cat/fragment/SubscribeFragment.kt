@@ -1,4 +1,4 @@
-package com.hotsx.vocabulary.fragment
+package com.hotsx.cat.fragment
 
 
 import android.os.Bundle
@@ -6,7 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.hotsx.vocabulary.R
+import com.hotsx.cat.R
 
 /**
  * A simple [Fragment] subclass.

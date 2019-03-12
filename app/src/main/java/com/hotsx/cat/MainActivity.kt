@@ -1,4 +1,4 @@
-package com.hotsx.vocabulary
+package com.hotsx.cat
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -8,7 +8,7 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupWithNavController
-import com.hotsx.vocabulary.databinding.ActivityMainBinding
+import com.hotsx.cat.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

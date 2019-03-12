@@ -1,4 +1,4 @@
-package com.hotsx.vocabulary
+package com.hotsx.cat
 
 import org.junit.Test
 
