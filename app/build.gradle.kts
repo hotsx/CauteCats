@@ -6,6 +6,7 @@ plugins {
     kotlin("android")
     id("kotlin-android-extensions")
     id("kotlin-kapt")
+    id("com.google.gms.google-services")
 }
 
 configure<AppExtension> {
@@ -38,14 +39,16 @@ dependencies {
     implementation("androidx.constraintlayout:constraintlayout:1.1.3")
     implementation("io.github.microutils:kotlin-logging:1.6.22") //Log
     implementation("org.slf4j", "slf4j-android", "1.7.21")//Log
-    implementation("android.arch.navigation:navigation-fragment-ktx:1.0.0-rc02") // Navigation
-    implementation("android.arch.navigation:navigation-ui-ktx:1.0.0-rc02")
-    implementation("androidx.lifecycle:lifecycle-extensions:2.1.0-alpha02")//ViewModel
+    implementation("android.arch.navigation:navigation-fragment-ktx:1.0.0") // Navigation
+    implementation("android.arch.navigation:navigation-ui-ktx:1.0.0")
+    implementation("androidx.lifecycle:lifecycle-extensions:2.1.0-alpha04")//ViewModel
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.0.0")
     implementation("com.squareup.retrofit2:retrofit:2.5.0")//retrofit
     implementation("com.squareup.retrofit2:converter-gson:2.5.0")//Gson
     implementation("com.github.bumptech.glide:glide:4.9.0")//Glide
     implementation("androidx.paging:paging-runtime:2.1.0") //Paging 分页组件
+    implementation("com.google.firebase:firebase-core:16.0.8")
+
     testImplementation("androidx.paging:paging-common:2.1.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1") //Coroutines
     /*Test dependencies*/
